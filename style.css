@@ -1,0 +1,145 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+  }
+
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1519px;
+    background-color: azure;
+}
+
+
+body img .img-news{  
+    position: relative;
+    left:106px;
+    z-index: -2;
+}
+
+.frm{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index:2;
+    width:620px;
+    height:785px;
+    border: none;
+    background-color: #121214;
+    color:#fff;
+    
+    padding-left:36px;
+
+    
+}
+.frm .logo{
+    position: relative;
+    top:50px;
+    left: -36px;
+}
+.frm .texto{
+    position: relative;
+    top:116px;
+}
+
+.frm fieldset{
+    border-style: none;
+    width: 100%;    
+}
+
+.d-form{
+    position: relative;
+    top:188px;
+    display: flex;
+    width:698px;
+    
+}
+.d-form img{
+    position: relative;
+    
+    background-color: #8257e5;
+    color: #fff;
+    padding: 5px;
+    transition: 1000ms;
+    height:34px;
+    margin-top: 33px;
+    height: auto;
+}
+   
+  
+
+
+.d-form img:hover{
+    background-color: var(--title-color);
+
+}
+
+
+.frm a{
+    position: relative;
+    top:222px;
+}
+
+
+.frm .texto h2{
+    color: var(--title-color);
+    font-family: 'League Spartan', sans-serif;
+}
+
+.frm .texto p strong {
+   font-weight: bold;
+   font-family: 'League Spartan', sans-serif;
+}
+
+.frm .texto p {
+    margin-top:9px;
+    margin-bottom: 9px;
+}
+
+.frm .texto #frase{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: lighter;
+}
+
+
+
+.frm fieldset form{
+   
+    display: flex;
+    flex-direction: column;
+    height: 84px;
+    
+}
+
+.frm input{
+    margin-top: 17px;
+    height: 84px;
+    border: none;
+    outline: none;
+    border-left: 6px solid var(--title-color);
+   
+   
+}
+
+.frm a{
+    display: flex;
+    flex-direction:row;
+    text-decoration: none;
+    color:var(--bg-button-color)
+}
+
+
+.frm form, a {
+    font-family: 'League Spartan', sans-serif;
+}
